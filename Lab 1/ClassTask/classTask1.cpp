@@ -23,5 +23,7 @@ int main()
     cout<<"average:"<<avg;
     cout<<"Maximum:"<<max;
     cout<<"Minimum"<<min;
+
+    delete[] arr;
     return 0;
 }
