@@ -23,3 +23,4 @@ int main(){
     shellSort(a,n);
     for(int i=0; i<n; i++) cout<<a[i]<<" ";
 }
+//Shell sort outperforms insertion sort because it eliminates the "long-distance shift" problem by allowing elements to swap over large gaps rather than moving one adjacent position at a time
